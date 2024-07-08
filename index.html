@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="form1">
+    <section id="main">
+      <h1>Learn to code by <br /> watching others</h1>
+      <p class="para">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but 
+        understanding how developers think is invaluable.</p>
+    </section>
+    <Section id="sub">
+      <div class="button1">Try it free 7 days <span class="color">then $20/mo. thereafter</span></div>
+      <div id="signup-form">
+        <input type="text" name="first name" id="First_Name" placeholder="First Name">
+        <span class="error" id="first-error">First name cannot be blank</span>
+        <input type="text" name="last name" id="Last_Name" placeholder="Last Name">
+        <span class="error" id="last-error">Last name cannot be blank</span>
+        <input type="email" name="Email Address" id="Email_Address" placeholder="Email Address">
+        <span class="error" id="email-error">Looks like this is not an email</span>
+        <input type="password" name="Password" id="password" placeholder="Password">
+        <span class="error" id="password-error">Password cannot be blank</span>
+        <button id="submit" type="submit">Claim your free trial</button>
+        <p class="click">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+      </div>
+    </Section>
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Busayo</a>.
+      </p>
+    </footer>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
